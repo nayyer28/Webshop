@@ -72,7 +72,9 @@ class="mx-auto">
             </button>
         </td>
         <td mat-footer-cell *matFooterCellDef>
-            <button mat-raised-button color="primary" class="float-right">
+            <button mat-raised-button
+            (click)="onCheckout()" 
+            color="primary" class="float-right">
                 Proceed to Checkout
             </button>
         </td>
